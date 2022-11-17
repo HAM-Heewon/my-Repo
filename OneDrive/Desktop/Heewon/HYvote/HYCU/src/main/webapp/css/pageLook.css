@@ -1,0 +1,40 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+section{
+	padding: 50px;
+	height: 600px;
+}
+
+table{
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 650px;
+	text-align: center;
+}
+
+caption{
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+table tbody tr:nth-child(2n+1){
+    background-color:#d8cbcb;
+}
+table tr th{
+	font-size: 20px;
+}
+tr{
+	font-size: 15px;
+}
+th, td{
+	border: 1px solid black;
+}
